@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { CgProfile } from "react-icons/cg";
 
 import Svg from "../extra/Svg";
 
@@ -28,34 +29,34 @@ const NavbarTop = () => {
             </span>
           </a>
         </div>
-        <div className="relative text-gray-600">
-          <input
-            type="search"
-            name="serch"
-            placeholder="Search"
-            className="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
-          />
-          <button
-            type="submit"
-            className="absolute right-0 top-0 mt-3 mr-4"
-          ></button>
-        </div>
-
-        <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
+        <div class="relative  w-full sm:max-w-2xl sm:mx-auto">
+    <div class="overflow-hidden z-0 rounded-full relative ">
+      <form role="form" class="relative flex z-50 bg-white rounded-full">
+        <input type="text" placeholder="enter your search here" class="rounded-full flex-1 px-6 py-4 text-gray-700 focus:outline-none"/>
+        <button class="bg-indigo-500 text-white rounded-full font-semibold px-8 py-4 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none">Search</button>
+      </form>
+   
+    </div>
+  </div>
+        <div className="inline-flex items-center  space-x-2 ml-5 lg:justify-end text-xl text-white">
+          <div className="flex items-center mr-12">
+          <div className="mr-2"> <CgProfile/></div>
+         
           <a
             href="#"
             onClick={navigateToRegister}
-            className="text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out hover:text-gray-900"
+            className="text-base font-medium leading-6 mr-1 text-white transition duration-150 ease-in-out hover:text-gray-900"
           >
-            Sign in
+            Sign in / 
           </a>
           <a
             href="#"
             onClick={navigateToLogin}
-            className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
+            className="text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:text-gray-9000"
           >
             login
           </a>
+          </div>
           <img
           id="avatarButton"
           type="button"

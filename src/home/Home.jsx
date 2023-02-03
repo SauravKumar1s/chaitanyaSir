@@ -7,7 +7,7 @@ import Question from "./Question";
 const Home = () => {
   return (
     <>
-    <Navbar1/>
+
     <Slider/>
     <AboutHome/>
     <Question/>

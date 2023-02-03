@@ -24,14 +24,14 @@ const Navbar1 = () => {
                 <div className="flex items-start">
                 <div>
                 <a href="#" class="mr-1">
-                  Services
+                  Home
                 </a></div>
                 <div className="mt-1">
                   <Svg/>
                 </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
                 {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
                   <li class="text-sm hover:bg-slate-100 leading-8">
                     <a href="#">Webdesign</a>
                   </li>
@@ -55,77 +55,14 @@ const Navbar1 = () => {
                 <div className="flex items-start">
                 <div>
                 <a href="#" class="mr-1">
-                  Services
+                About
                 </a></div>
                 <div className="mt-1">
                   <Svg/>
                 </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
                 {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Webdesign</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Digital marketing</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">SEO</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Ad campaigns</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">UX Design</a>
-                  </li>
-                </ul>
-                {/* <!-- Submenu ends --> */}
-              </li>
-
-
-              <li class="flex relative group">
-                <div className="flex items-start">
-                <div>
-                <a href="#" class="mr-1">
-                  Services
-                </a></div>
-                <div className="mt-1">
-                  <Svg/>
-                </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
-                {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Webdesign</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Digital marketing</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">SEO</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">Ad campaigns</a>
-                  </li>
-                  <li class="text-sm hover:bg-slate-100 leading-8">
-                    <a href="#">UX Design</a>
-                  </li>
-                </ul>
-                {/* <!-- Submenu ends --> */}
-              </li>
-
-              <li class="flex relative group">
-                <div className="flex items-start">
-                <div>
-                <a href="#" class="mr-1">
-                  Services
-                </a></div>
-                <div className="mt-1">
-                  <Svg/>
-                </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
-                {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
                   <li class="text-sm hover:bg-slate-100 leading-8">
                     <a href="#">Webdesign</a>
                   </li>
@@ -150,14 +87,77 @@ const Navbar1 = () => {
                 <div className="flex items-start">
                 <div>
                 <a href="#" class="mr-1">
+                Contact Us
+                </a></div>
+                <div className="mt-1">
+                  <Svg/>
+                </div></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
+                {/* <!-- Submenu starts --> */}
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Webdesign</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Digital marketing</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">SEO</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Ad campaigns</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">UX Design</a>
+                  </li>
+                </ul>
+                {/* <!-- Submenu ends --> */}
+              </li>
+
+              <li class="flex relative group">
+                <div className="flex items-start">
+                <div>
+                <a href="#" class="mr-1">
+                Careers
+                </a></div>
+                <div className="mt-1">
+                  <Svg/>
+                </div></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
+                {/* <!-- Submenu starts --> */}
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Webdesign</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Digital marketing</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">SEO</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">Ad campaigns</a>
+                  </li>
+                  <li class="text-sm hover:bg-slate-100 leading-8">
+                    <a href="#">UX Design</a>
+                  </li>
+                </ul>
+                {/* <!-- Submenu ends --> */}
+              </li>
+
+
+              <li class="flex relative group">
+                <div className="flex items-start">
+                <div>
+                <a href="#" class="mr-1">
                   Services
                 </a></div>
                 <div className="mt-1">
                   <Svg/>
                 </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
                 {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
                   <li class="text-sm hover:bg-slate-100 leading-8">
                     <a href="#">Webdesign</a>
                   </li>
@@ -180,14 +180,14 @@ const Navbar1 = () => {
                 <div className="flex items-start">
                 <div>
                 <a href="#" class="mr-1">
-                  Services
+                Find a Pharmacy
                 </a></div>
                 <div className="mt-1">
                   <Svg/>
                 </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
                 {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
                   <li class="text-sm hover:bg-slate-100 leading-8">
                     <a href="#">Webdesign</a>
                   </li>
@@ -210,14 +210,14 @@ const Navbar1 = () => {
                 <div className="flex items-start">
                 <div>
                 <a href="#" class="mr-1">
-                  Services
+                Management
                 </a></div>
                 <div className="mt-1">
                   <Svg/>
                 </div></div>
-                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-black border-b-8 border-x-transparent border-x-8 border-t-0s  right-6 top-8"></div>
+                <div className="absolute transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top border-solid border-b-header-clr border-b-8 border-x-transparent border-x-8 border-t-0s  right-12 top-8"></div>
                 {/* <!-- Submenu starts --> */}
-                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <ul class="absolute bg-white p-3 w-52 top-10 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg rounded">
                   <li class="text-sm hover:bg-slate-100 leading-8">
                     <a href="#">Webdesign</a>
                   </li>

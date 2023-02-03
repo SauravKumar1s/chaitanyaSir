@@ -29,15 +29,22 @@ import Home from "./home/Home";
 import Profile from "./pages/Profile";
 import Register from "./Accounts/Register";
 import ProfileEdit from "./Profle/ProfileEdit";
+import NavbarTopest from "./navbar/NavbarTopest";
+import Navbar1 from "./navbar/Navbar1";
 
 function App() {
   return (
     <>
     
+    
       <BrowserRouter>
+<div className="App">
+      <NavbarTopest/>
         <NavbarTop />
+        <Navbar1/>  
         <Routes>
-          <Route exact path="/" element={<Login />} />
+        
+             <Route exact path="/" element={<Login />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/profile" element={<Profile />} />
@@ -49,9 +56,11 @@ function App() {
           <Route exact path="/management" element={<Management />} />
           <Route exact path="/offers" element={<Offers />} />
           <Route exact path="/press" element={<Press />} />
+         
+         
           <Route exact path="/profileedit" element={<ProfileEdit />} />
-        </Routes>
-        <Footer />
+        </Routes> 
+        <Footer /></div>
       </BrowserRouter>
     </>
   );
