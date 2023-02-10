@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import Svg from "../extra/Svg";
+import {
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 const Navbar1 = () => {
   //change nav color wehn scrolling

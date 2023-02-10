@@ -32,35 +32,42 @@ import ProfileEdit from "./Profle/ProfileEdit";
 import NavbarTopest from "./navbar/NavbarTopest";
 import Navbar1 from "./navbar/Navbar1";
 
+
+
+// const COMPONENT_MAP = {
+//   Home: Home,
+//   Report: Report,
+//   About: About,
+//   Contact: Contact,
+//   Post: Post
+// };
+
 function App() {
   return (
     <>
-    
-    
       <BrowserRouter>
-<div className="App">
-      <NavbarTopest/>
-        <NavbarTop />
-        <Navbar1/>  
-        <Routes>
-        
-             <Route exact path="/" element={<Login />} />
-          <Route exact path="/register" element={<Register />} />
-          <Route exact path="/home" element={<Home />} />
-          <Route exact path="/profile" element={<Profile />} />
-          <Route exact path="/careers" element={<Careers />} />
-          <Route exact path="/contactus" element={<ContactUs />} />
-          <Route exact path="/faq" element={<Faq />} />
-          <Route exact path="/findapharmacy" element={<FindAPharmacy />} />
-          <Route exact path="/investor" element={<InvestorPresentation />} />
-          <Route exact path="/management" element={<Management />} />
-          <Route exact path="/offers" element={<Offers />} />
-          <Route exact path="/press" element={<Press />} />
-         
-         
-          <Route exact path="/profileedit" element={<ProfileEdit />} />
-        </Routes> 
-        <Footer /></div>
+        <div className="App">
+          <NavbarTopest />
+          <NavbarTop />
+          <Navbar1 />
+          <Routes>
+            <Route exact path="/" element={<Login />} />
+            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/profile" element={<Profile />} />
+            <Route exact path="/careers" element={<Careers />} />
+            <Route exact path="/contactus" element={<ContactUs />} />
+            <Route exact path="/faq" element={<Faq />} />
+            <Route exact path="/findapharmacy" element={<FindAPharmacy />} />
+            <Route exact path="/investor" element={<InvestorPresentation />} />
+            <Route exact path="/management" element={<Management />} />
+            <Route exact path="/offers" element={<Offers />} />
+            <Route exact path="/press" element={<Press />} />
+
+            <Route exact path="/profileedit" element={<ProfileEdit />} />
+          </Routes>
+          <Footer />
+        </div>
       </BrowserRouter>
     </>
   );

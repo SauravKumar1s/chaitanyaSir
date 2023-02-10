@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const ProfileEdit = () => {
   return (
     <div class="min-h-screen bg-gray-100 p-0 sm:p-12">

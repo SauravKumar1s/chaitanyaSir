@@ -9,6 +9,7 @@ module.exports = {
         'regal-blue': '#154979',
         'header-clr': '#02b7c2',
         'btn-clr': '#1dbe71',
+        "bg-clr": "#d5d8e3"
 
       },
     },

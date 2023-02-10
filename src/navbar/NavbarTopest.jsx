@@ -5,75 +5,54 @@ import {
   AiFillFacebook,
   AiFillLinkedin,
   AiFillInstagram,
+  
 } from "react-icons/ai";
 
 const NavbarTopest = () => {
   return (
-    <nav class="relative flex flex-wrap items-center justify-between px-2 py-1 bg-header-clr">
-      <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+    <nav className="relative flex flex-wrap items-center justify-between  bg-white border-b border-gray-300">
+      <div className="container mx-auto flex flex-wrap items-center justify-between w-11/12">
+        <div className="w-full relative flex justify-between lg:w-auto   lg:static lg:block lg:justify-start">
           <div className="flex justify-center items-center ">
-            <div className="flex items-center mr-4">
-              <div>
-                <a
-                  class="text-xl font-bold leading-relaxed inline-block mr-2 py-2 whitespace-nowrap uppercase text-white"
-                  href="#pablo"
-                >
-                  <BiMailSend />
-                </a>
-              </div>
-              <div className="text-white mb-3 ">example@gmail.com</div>
-            </div>
+            <div className="text-black mr-4">facebook</div>
 
-            <div className="flex items-center">
-              <div>
-                <a
-                  class="text-xl font-bold leading-relaxed inline-block mr-2 py-2 whitespace-nowrap uppercase text-white"
-                  href="#pablo"
-                >
-                  <BiMailSend />
-                </a>
-              </div>{" "}
-            </div>
-            <div className="text-white mb-3 ">example@gmail.com</div>
+            <div className="text-black  mr-4 ">Twitter </div>
+            <div className="text-black  ">Pintrest </div>
           </div>
-          <button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-          >
-            <span class="block relative w-6 h-px rounded-sm bg-white"></span>
-            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-          </button>
+        
         </div>
-        <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
-          <ul class="flex flex-col lg:flex-row list-none ml-auto">
-       
-         
-            <li class="nav-item">
-              <a
-                class="px-3 py-2 flex items-center text-xl uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                <AiFillFacebook />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="px-3 py-2 flex items-center  text-xl uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                <AiFillLinkedin />
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="px-3 py-2 flex items-center  text-xl uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+        
+        <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
+        
+          <ul className="flex flex-col lg:flex-row list-none ml-auto">
+          <a
+            href="#"
+            className="block sm:inline-block py-2 mr-6 text-gray-700  hover:text-gray-900"
+          >
+            Home
+          </a>
+
+          <a
+            href="#"
+            className="block sm:inline-block py-2 mr-6 text-gray-700  hover:text-gray-900"
+          >
+            About
+          </a>
+
+          <a
+            href="#"
+            className="block sm:inline-block py-2 mr-6 text-gray-700  hover:text-gray-900"
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+            className="block sm:inline-block py-2 mr-6 text-red-500  hover:text-gray-900"
+          >
+            Need help? 0020 500 - 0900 - 000
+          </a>
+
+      
           </ul>
         </div>
       </div>
