@@ -4,7 +4,6 @@ import { cardbg } from "../data/data";
 const ImgCard = () => {
   return (
     <>
-    
       <div className="flex lg:flex-row flex-col items-center justify-center mt-12 ">
         <div className=" flex  flex-wrap  items-center justify-center w-11/12 gap-10">
           {cardbg.map((e) => {

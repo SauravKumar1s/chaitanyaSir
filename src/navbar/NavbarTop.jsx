@@ -87,16 +87,16 @@ const NavbarTop = () => {
         </div>
         <div className="inline-flex items-center  space-x-2 ml-5 lg:justify-end text-xl text-white">
           <div className="flex items-center mr-12">
-            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm">
+            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm cursor-pointer">
               {" "}
               <CgProfile />
             </div>
            
-            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm">
+            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm cursor-pointer">
               {" "}
               <MdOutlineFavoriteBorder />
             </div>
-            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm">
+            <div className="mr-2 text-gray-500 bg-slate-300 p-2 rounded-sm cursor-pointer">
               {" "}
               <AiOutlineShoppingCart />
             </div>

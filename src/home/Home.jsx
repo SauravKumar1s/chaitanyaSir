@@ -6,21 +6,20 @@ import ImgCard from "./ImgCard";
 import ProcessCard from "./ProcessCard";
 import Question from "./Question";
 import Search from "./Search";
+import Testimonials from "./Testimonials";
+import UploadCardMain from "./UploadCardMain";
 
 const Home = () => {
   return (
     <>
-
-    <Hero/>
-    <ProcessCard/>
-    <ImgCard/>
-    <Search/>
-    {/* <AboutHome/>
-    <Question/> */}
-
+      <Hero />
+      <ProcessCard />
+      <Testimonials />
+      <UploadCardMain />
+      <ImgCard />
+      <Search />
     </>
-  )
-
+  );
 };
 
 export default Home;

@@ -1,12 +1,6 @@
 import React from "react";
-import { FaBeer } from "react-icons/fa";
-import { BiMailSend } from "react-icons/bi";
-import {
-  AiFillFacebook,
-  AiFillLinkedin,
-  AiFillInstagram,
-  
-} from "react-icons/ai";
+
+
 
 const NavbarTopest = () => {
   return (
@@ -17,7 +11,7 @@ const NavbarTopest = () => {
             <div className="text-black mr-4">facebook</div>
 
             <div className="text-black  mr-4 ">Twitter </div>
-            <div className="text-black  ">Pintrest </div>
+            <div className="text-black  "> pinterest </div>
           </div>
         
         </div>
@@ -49,7 +43,7 @@ const NavbarTopest = () => {
             href="#"
             className="block sm:inline-block py-2 mr-6 text-red-500  hover:text-gray-900"
           >
-            Need help? 0020 500 - 0900 - 000
+            Need help? + 91 95977 06555
           </a>
 
       
