@@ -62,7 +62,7 @@ const Register = () => {
                 type="submit"
                 className="w-full px-4 py-2 text-lg font-semibold text-white bg-rose-600 md:px-12 md:py-2   shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 transition-colors duration-300  rounded-md  focus:ring-blue-200 "
               >
-                Log in
+                Register
               </button>
             </div>
             <div className="flex flex-col space-y-5">

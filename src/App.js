@@ -1,7 +1,6 @@
 import "./App.css";
 import NavbarTop from "./navbar/NavbarTop";
 import Login from "./Accounts/Login";
-
 import Careers from "./pages/Careers";
 import ContactUs from "./pages/ContactUs";
 import Faq from "./pages/Faq";
@@ -10,20 +9,11 @@ import InvestorPresentation from "./pages/InvestorPresentation";
 import Management from "./pages/Management";
 import Offers from "./pages/Offers";
 import Press from "./pages/Press";
-import PricingPolicy from "./pages/PricingPolicy";
-import ReferEarn from "./pages/ReferEarn";
-import ReturnPolicy from "./pages/ReturnPolicy";
-import Sitemap from "./pages/Sitemap";
-import TermsandConditions from "./pages/TermsandConditions";
-
 import Footer from "./pages/Footer";
 import {
-  NavLink,
   BrowserRouter,
   Routes,
   Route,
-  useParams,
-  useNavigate,
 } from "react-router-dom";
 import Home from "./home/Home";
 import Profile from "./pages/Profile";
@@ -31,7 +21,6 @@ import Register from "./Accounts/Register";
 import ProfileEdit from "./Profle/ProfileEdit";
 import NavbarTopest from "./navbar/NavbarTopest";
 import Navbar1 from "./navbar/Navbar1";
-
 
 function App() {
   return (

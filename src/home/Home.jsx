@@ -1,13 +1,10 @@
 import React from "react";
-import Slider from "../slider/Slider";
-import AboutHome from "./AboutHome";
+import CardSlider from "./CardSlider";
 import Hero from "./Hero";
 import ImgCard from "./ImgCard";
 import NumberCounter from "./NumberCounter";
 import ProcessCard from "./ProcessCard";
-import Question from "./Question";
 import Search from "./Search";
-import Testimonials from "./Testimonials";
 import UploadCardMain from "./UploadCardMain";
 
 const Home = () => {
@@ -15,7 +12,7 @@ const Home = () => {
     <>
       <Hero />
       <ProcessCard />
-      <Testimonials />
+      <CardSlider />
       <UploadCardMain />
       <NumberCounter/>
       <ImgCard />

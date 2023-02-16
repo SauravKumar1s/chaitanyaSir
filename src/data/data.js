@@ -59,3 +59,24 @@ export const cardbg = [
 
 
 ]
+export const step = [
+  {
+    id: 1,
+    imageUrl: require("../home/img/1.png"),
+    title: "Upload Clear Prescription ",
+    title2: "(valid prescription only)",
+  },
+  {
+    id: 2,
+    imageUrl: require("../home/img/2.png"),
+    title: "Doctor Prepares your cart",
+    title2: "(get confirmation call)",
+  },
+  {
+    id: 3,
+    imageUrl: require("../home/img/3.png"),
+
+    title: "(We Deliver your Medicines)",
+    title2: "(Get best price)",
+  },
+]

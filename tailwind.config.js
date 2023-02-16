@@ -25,6 +25,7 @@ module.exports = {
       backgroundColor:{
         "btn-blue": "#007bff",
         "btn-ylw": "#FEED00",
+        "btn-upload": "#17a2b8",
       }
     },
   },

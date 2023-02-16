@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="relative w-full h-screen bg-cover bg-center"
+        className="relative -z-50 w-full h-screen bg-cover bg-center"
         style={{ backgroundImage: `url(${images[index]})` }}
       >
         <div className="relative z-50 mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">

@@ -1,6 +1,5 @@
 import React from "react";
-import step1 from "../home/img/1.svg";
-
+import { step } from "../data/data";
 
 const UploadCardMain = () => {
   const [showModal, setShowModal] = React.useState(false);
@@ -19,75 +18,37 @@ const UploadCardMain = () => {
               />
 
               <div className="p-6 flex sm:flex-row flex-col  justify-start gap-10">
-                <div className="sm:w-150%  h-11/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <div className="flex justify-center">
-                    <a href="#">
-                      <img
-                        className=" sm:w-32 w-24 mt-4 rounded-lg"
-                        src={step1}
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center mt-10">
-                    <a href="#">
-                      <h5 className="mb-2 p-3 text-xl  tracking-tight text-gray-900 dark:text-white">
-                        Upload Clear Prescription
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      Here are the biggest
-                    </p>
-                  </div>
-                </div>
-                <div className="sm:w-150% h-11/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <div className="flex justify-center">
-                    <a href="#">
-                      <img
-                        className=" sm:w-32 w-24 mt-4 rounded-lg"
-                        src={step1}
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center mt-10">
-                    <a href="#">
-                      <h5 className="mb-2 p-3 text-xl  tracking-tight text-gray-900 dark:text-white">
-                        Upload Clear Prescription
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      Here are the biggest
-                    </p>
-                  </div>
-                </div>{" "}
-                <div className="sm:w-150% h-11/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <div className="flex justify-center">
-                    <a href="#">
-                      <img
-                        className="sm:w-32 w-24 rounded-lg mt-4"
-                        src={step1}
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center mt-10">
-                    <a href="#">
-                      <h5 className="mb-2 text-xl p-3  tracking-tight text-gray-900 dark:text-white">
-                        Upload Clear Prescription
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      Here are the biggest
-                    </p>
-                  </div>
-                </div>
+                {step.map((e) => {
+                  return (
+                    <div className="sm:w-150%  h-11/12 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                      <div className="flex justify-center">
+                        <a href="#">
+                          <img
+                            className=" sm:w-32 w-24 mt-4 rounded-lg"
+                            src={e.imageUrl}
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div className="text-center mt-10">
+                        <a href="#">
+                          <h5 className="mb-2 p-3 text-xl  tracking-tight text-gray-900 dark:text-white">
+                            {e.title}
+                          </h5>
+                        </a>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                          {e.title2}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
           <div className="flex justify-center items-center sm:ml-24">
             <button
-              className="  rounded-full bg-btn-ylw px-12 py-3 text-sm font-medium text-black shadow  focus:outline-none focus:ring active:bg-btn-ylw sm:w-auto"
+              className="  rounded-full bg-btn-upload px-12 py-3 text-sm font-medium text-white shadow  focus:outline-none focus:ring active:bg-btn-ylw sm:w-auto"
               onClick={() => setShowModal(true)}
             >
               Upload Prescription Now
@@ -95,7 +56,7 @@ const UploadCardMain = () => {
             {showModal ? (
               <>
                 <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                  <div className="relative w-2/4 my-6 mx-auto max-w-3xl">
+                  <div className="relative  my-6 mx-auto md:max-w-3xl w-full">
                     {/*content*/}
                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none h-2/4">
                       {/*header*/}
@@ -171,7 +132,7 @@ const UploadCardMain = () => {
                           <>
                             {" "}
                             <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                              <div className="relative w-2/4  mx-auto max-w-3xl">
+                              <div className="relative w-full  mx-auto max-w-3xl">
                                 {/*content*/}
                                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                   {/*header*/}
@@ -240,14 +201,7 @@ const UploadCardMain = () => {
                                               </div>
                                             </div>
                                           </div>
-                                          {/* <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
-                                            <button
-                                              type="submit"
-                                              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                            >
-                                              Save
-                                            </button>
-                                          </div> */}
+                                      
                                         </div>
                                       </form>
                                     </div>
