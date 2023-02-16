@@ -5,10 +5,10 @@ const Footer = () => {
     <div className="bg-gray-100 w-full  h-full pt-24 flex justify-center items-center">
       <div className="">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-5">
+          <div className="grid grid-cols-2 gap-24 row-gap-8 lg:col-span-4 md:grid-cols-5">
             <div>
-              <p className="font-medium tracking-wide text-black">Company</p>
-              <ul className="mt-2 space-y-2">
+              <p className="font-medium tracking-wide text-black ml-4">Company</p>
+              <ul className="mt-2 space-y-2 ml-4">
                 <li>
                   <a
                     href="/"
@@ -52,8 +52,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="font-medium tracking-wide text-black">Company</p>
-              <ul className="mt-2 space-y-2">
+              <p className="font-medium tracking-wide text-black ">Company</p>
+              <ul className="mt-2 space-y-2 ">
                 <li>
                   <a
                     href="/"
@@ -97,8 +97,8 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <p className="font-medium tracking-wide text-black">Company</p>
-              <ul className="mt-2 space-y-2">
+              <p className="font-medium tracking-wide text-black ml-4">Company</p>
+              <ul className="mt-2 space-y-2 ml-4">
                 <li>
                   <a
                     href="/"
@@ -181,23 +181,26 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="md:max-w-md lg:col-span-2">
+          <div className="md:max-w-md lg:col-span-2 mt-5 ml-4">
             <span className="text-base font-medium tracking-wide text-black">
               Subscribe for Newletter
             </span>
-            <form className="flex flex-col mt-4 md:flex-row">
+            <form className="flex flex-col mt-4 md:flex-row w-80">
               <input
                 placeholder="Email"
                 required
                 type="text"
                 className="flex-grow w-full h-12 px-4 mb-3 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none md:mr-2 md:mb-0 focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
               />
-             <a
+              <div className="flex justify-center">
+                <a
               href="#"
-              className="block w-full rounded bg-rose-600 px-6 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className=" rounded bg-rose-600 px-6 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 w-24"
             >
               sumbit
             </a>
+              </div>
+             
             </form>
             <p className="mt-4 text-sm text-black">
               Bacon ipsum dolor amet short ribs pig sausage prosciuto chicken

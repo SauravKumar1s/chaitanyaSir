@@ -16,7 +16,7 @@ const NavbarTopest = () => {
         
         </div>
         
-        <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
+        <div className="lg:flex flex-grow hidden items-center" id="example-navbar-warning">
         
           <ul className="flex flex-col lg:flex-row list-none ml-auto">
           <a

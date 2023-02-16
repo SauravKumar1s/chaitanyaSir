@@ -33,15 +33,6 @@ import NavbarTopest from "./navbar/NavbarTopest";
 import Navbar1 from "./navbar/Navbar1";
 
 
-
-// const COMPONENT_MAP = {
-//   Home: Home,
-//   Report: Report,
-//   About: About,
-//   Contact: Contact,
-//   Post: Post
-// };
-
 function App() {
   return (
     <>

@@ -20,7 +20,7 @@ const ImgCard = () => {
 
                   <a
                     href="#"
-                    className="md:ml-12 ml-6 block w-full rounded-full bg-rose-600 md:px-12 md:py-3 px-5 py-2 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                    className="md:ml-12 ml-6 block  rounded-full bg-rose-600 md:px-12 md:py-3 px-5 py-2 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
                   >
                     Shop Now
                   </a>

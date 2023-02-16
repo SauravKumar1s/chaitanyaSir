@@ -3,6 +3,7 @@ import Slider from "../slider/Slider";
 import AboutHome from "./AboutHome";
 import Hero from "./Hero";
 import ImgCard from "./ImgCard";
+import NumberCounter from "./NumberCounter";
 import ProcessCard from "./ProcessCard";
 import Question from "./Question";
 import Search from "./Search";
@@ -16,6 +17,7 @@ const Home = () => {
       <ProcessCard />
       <Testimonials />
       <UploadCardMain />
+      <NumberCounter/>
       <ImgCard />
       <Search />
     </>
